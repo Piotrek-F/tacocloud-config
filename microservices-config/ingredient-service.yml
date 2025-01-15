@@ -2,10 +2,10 @@ taco:
   orders:
     page-size: 10
 
----
-spring:
-  profiles: production
+# ---
+# spring:
+#   profiles: production
 
-taco:
-  orders:
-    page-size: 15
+# taco:
+#   orders:
+#     page-size: 15

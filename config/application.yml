@@ -8,17 +8,17 @@ eureka:
 
 # Configuration of RabbitMQ and Apache Kafka for automatic configuration refreshing
 # of Config Server clients.
-spring:
+# spring:
 #  rabbitmq:
 #    host: rabbit.tacocloud.com
 #    port: 5672
 #    username: tacocloud
 #    password: s3cr3t
-  kafka:
-    bootstrap-servers:
-    - kafka.tacocloud.com:9092
-    - kafka.tacocloud.com:9093
-    - kafka.tacocloud.com:9094
+  # kafka:
+  #   bootstrap-servers:
+  #   - kafka.tacocloud.com:9092
+  #   - kafka.tacocloud.com:9093
+  #   - kafka.tacocloud.com:9094
 
 # ---
 # spring:

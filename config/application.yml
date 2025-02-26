@@ -32,8 +32,8 @@ spring:
 #     service-url:
 #       defaultZone: http://eureka1:8761/eureka/,http://eureka2:8761/eureka/
 
-management:
-  endpoints:
-    web:
-      exposure:
-        include: refresh, hystrix.stream
+# management:
+#   endpoints:
+#     web:
+#       exposure:
+#         include: refresh, hystrix.stream

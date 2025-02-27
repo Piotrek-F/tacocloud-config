@@ -12,8 +12,3 @@ taco:
 
 server:
   port: 8081
-
-info:
-  contact:
-    email: support@tacocloud.com
-    phone: 822-625-6831

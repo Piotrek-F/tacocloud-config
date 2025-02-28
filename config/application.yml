@@ -41,4 +41,4 @@ management:
     health:
       show-details: always
     env:
-      show-values: ALWAYS
+      show-values: always

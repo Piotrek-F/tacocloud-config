@@ -37,3 +37,6 @@ management:
     web:
       exposure:
         include: refresh, hystrix.stream, health, info
+  endpoint:
+    health:
+      show-details: always

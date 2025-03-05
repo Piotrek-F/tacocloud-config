@@ -36,7 +36,7 @@ management:
   endpoints:
     web:
       exposure:
-        include: refresh, hystrix.stream, health, info, beans, conditions, env, config-props, mappings, loggers
+        include: refresh, hystrix.stream, health, info, beans, conditions, env, config-props, mappings, loggers, httptrace, threaddump, heapdump
   endpoint:
     health:
       show-details: always

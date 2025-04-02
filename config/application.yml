@@ -9,6 +9,10 @@ eureka:
 # Configuration of RabbitMQ and Apache Kafka for automatic configuration refreshing
 # of Config Server clients.
 spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9090
 #  rabbitmq:
 #    host: rabbit.tacocloud.com
 #    port: 5672

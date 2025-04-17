@@ -42,7 +42,7 @@ management:
   endpoints:
     jmx:
       exposure:
-        include: *
+        include: health, info, beans, conditions, env, config-props, mappings, loggers, httptrace, threaddump, heapdump, metrics
     web:
       exposure:
         include: refresh, hystrix.stream, health, info, beans, conditions, env, config-props, mappings, loggers, httptrace, threaddump, heapdump, metrics, notes

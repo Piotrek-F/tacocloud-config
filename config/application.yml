@@ -13,8 +13,8 @@ spring:
     admin:
       client:
         url: http://localhost:9090
-#  jmx:
-#    enabled: true
+  jmx:
+    enabled: true
 #  rabbitmq:
 #    host: rabbit.tacocloud.com
 #    port: 5672

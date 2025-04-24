@@ -40,9 +40,9 @@ spring:
 
 management:
   endpoints:
-    jmx:
-      exposure:
-        include: health, info, beans
+#    jmx:
+#      exposure:
+#        include: health, info, beans, conditions, env, config-props, mappings, loggers, httptrace, threaddump, heapdump, metrics, notes
     web:
       exposure:
         include: refresh, hystrix.stream, health, info, beans, conditions, env, config-props, mappings, loggers, httptrace, threaddump, heapdump, metrics, notes
